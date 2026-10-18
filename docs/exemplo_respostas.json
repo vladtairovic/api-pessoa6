@@ -1,0 +1,77 @@
+{
+  "upload": {
+    "id": "f22a8c0f-15db-4976-af53-f64753a700ee",
+    "filename": "documento.txt",
+    "status": "sucesso",
+    "mode": "demo"
+  },
+  "search": {
+    "chunks": [
+      {
+        "document_id": "f22a8c0f-15db-4976-af53-f64753a700ee",
+        "chunk_id": "f22a8c0f-15db-4976-af53-f64753a700ee_demo",
+        "source": "documento.txt",
+        "content": "Material sintético para demonstrar a API.\nQiskit é o tema deste exemplo. A validação e a otimização reais de circuitos pertencem à equipe responsável por Qiskit.\nEste arquivo não é documentação oficial nem evidência de desempenho."
+      }
+    ],
+    "citations": [
+      "documento.txt"
+    ],
+    "status": "ok",
+    "request_id": "1128157c-5793-4538-91bd-fa96bf19b6b2",
+    "mode": "demo"
+  },
+  "query": {
+    "response": "SIMULAÇÃO: foi encontrado um trecho relacionado. Nenhuma IA analisou ou otimizou o código. Trecho: Material sintético para demonstrar a API.\nQiskit é o tema deste exemplo. A validação e a otimização reais de circuitos pertencem à equipe responsável por Qiskit.\nEste arquivo não é documentação oficial nem evidência de desempenho.",
+    "sources": [
+      {
+        "document_id": "f22a8c0f-15db-4976-af53-f64753a700ee",
+        "chunk_id": "f22a8c0f-15db-4976-af53-f64753a700ee_demo",
+        "source": "documento.txt",
+        "content": "Material sintético para demonstrar a API.\nQiskit é o tema deste exemplo. A validação e a otimização reais de circuitos pertencem à equipe responsável por Qiskit.\nEste arquivo não é documentação oficial nem evidência de desempenho."
+      }
+    ],
+    "status": "ok",
+    "request_id": "72affad0-d201-435a-8311-1aa7049cff40",
+    "mode": "demo"
+  },
+  "evaluation": {
+    "case_id": "DEMO-01",
+    "evaluator": "Avaliador da demonstracao",
+    "ratings": [
+      {
+        "criterion": "pertinencia",
+        "score": 4,
+        "evidence": "Nota ficticia para demonstrar o calculo."
+      },
+      {
+        "criterion": "coerencia",
+        "score": 4,
+        "evidence": "Nota ficticia para demonstrar o calculo."
+      },
+      {
+        "criterion": "aderencia",
+        "score": 4,
+        "evidence": "Nota ficticia para demonstrar o calculo."
+      },
+      {
+        "criterion": "clareza",
+        "score": 4,
+        "evidence": "Nota ficticia para demonstrar o calculo."
+      },
+      {
+        "criterion": "falhas",
+        "score": 4,
+        "evidence": "Nota ficticia para demonstrar o calculo."
+      }
+    ],
+    "critical_failure": false,
+    "critical_evidence": null,
+    "id": "2c4bbabd-48a2-4b77-bba0-34c2bc7ef845",
+    "created_at": "2026-10-13T00:32:40.876645+00:00",
+    "rubric_version": "inicial-1.0",
+    "mean": 4.0,
+    "approved": true,
+    "result": "aprovado"
+  }
+}
